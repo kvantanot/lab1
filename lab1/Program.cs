@@ -7,6 +7,10 @@ namespace lab1
         static void Main(string[] args) 
         {
             Console.WriteLine("Hello world"); //Вызываем метод WriteLine, ничего не возвращает
+            foreach (string arg in args)
+            {
+                Console.WriteLine(arg);
+            }
         }
     }
 }
